@@ -1,0 +1,74 @@
+﻿HTTP/1.1 200 OK
+Version: HTTP/1.1
+Connection: Keep-Alive
+Content-Type: text/html;
+charset=utf-8
+
+<html>
+<head>
+	<title>HTTP Server on C++</title>
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="top_bar_black">
+        <div id="logo_container">
+            <div id="logo_image"> </div>  <div id="nav_block">
+                <div class="nav_button"> <a href="http://127.0.0.1:8000">Home </a></div>
+                <div class="nav_button"> <a href="Contact.html">Contact </a></div>
+                <div class="nav_button"> <a href="Links.html">Links </a></div>
+            </div>
+        </div>
+    </div>
+    <div id="content_container">
+        <div id="header">
+            <div class="header_content_mainline"> This is the starting page of my server </div> 
+			<div id="header_content_tagline" align="justify">  <br> HTTP server written in C. C is a general-purpose, imperative computer programming 
+			language, supporting structured programming, lexical variable scope and recursion, while a
+			static type system prevents many unintended operations.<br>
+			<br>
+			Programming environment in which it is written server - Qt Creator. Qt is a cross-platform application
+			framework that is widely used for developing application software that can be run on various
+			software and hardware platforms with little or no change in the underlying codebase, while
+			still being a native application with the capabilities and speed thereof.
+			</div>
+        </div>
+
+        <div id="header_lower">
+            <div id="header_content_boxline">
+                About Server </div>
+				<div id="header_content_boxcontent">
+                   The server is written using sockets technology. The server returns the
+				   requested page, responds to the mistakes from both the user and the server sides.
+				   The server keeps a log of events, because every event that happens on the server 
+				   is written in a separate file (log.txt), which recorded the event status, time and
+				   date of occurrence and description of the event. Developed console menu for the
+				   service, which allows you to start and stop the server, enable and disable logging,
+				   change the path to the log-file, and also the correct exit from the program.
+                </div>
+            </div>
+		
+		<div id="header_lower">
+            <div id="header_content_boxline">Clients</div>
+            <div id="header_content_boxcontent">
+				The clients are browsers on devices users. The user enters in the browser
+				address http://127.0.0.1:8000 and comes to the homepage server.
+				</div>
+
+        </div>
+    </div>
+
+
+
+    <div id="bottom_bar_black">
+        <div id="main_container">
+            <div id="header_lower">
+                <div id="header_content_lowerline">
+                    Wishes for you!
+                    <div id="header_content_lowerboxcontent">Don`t worry, Be Happy! </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

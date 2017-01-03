@@ -1,0 +1,58 @@
+HTTP/1.1 200 OK
+Version: HTTP/1.1
+Content-Type: text/css;
+charset=utf-8
+
+body{
+	background: #194E6E;
+}	
+
+.mybutton {
+	box-shadow: rgba(255, 156, 108, 0.98) 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
+}
+.mybutton {
+	vertical-align: top;
+	border-radius: 4px;
+	color:yellow;
+	border: none;
+	padding: 10px 25px 12px;
+}
+
+.gray {
+	margin-bottom: 20px;
+	background: rgba(12, 52, 77, 0.34);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	color:yellow;
+	text-decoration:none;
+	padding:30px 30px;
+	font-size: 20px;
+	font-weight:bold;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+}
+.wrap{
+	margin:0 auto;
+	width:1000px;
+}
+
+h1{
+	font-size:100px;
+	color:yellow;
+	text-align:center;
+	margin-top:100px;
+	text-shadow:6px 1px 6px #333;
+	font-family: 'Fjalla One', sans-serif;
+}
+h2{
+	font-size:100px;
+	color:yellow;
+	text-align:center;
+	margin-bottom:1px;
+	text-shadow:6px 1px 6px #333;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: -20px;
+}
